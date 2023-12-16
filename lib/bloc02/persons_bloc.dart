@@ -1,5 +1,5 @@
-import 'package:bloc_state_mgt/bloc01/person_action.dart';
-import 'package:bloc_state_mgt/bloc01/persons.dart';
+import 'package:bloc_state_mgt/bloc02/person_action.dart';
+import 'package:bloc_state_mgt/bloc02/persons.dart';
 import 'package:flutter/foundation.dart' show immutable;
 import 'package:flutter_bloc/flutter_bloc.dart';
 

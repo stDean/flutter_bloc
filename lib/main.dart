@@ -1,8 +1,9 @@
-import 'package:bloc_state_mgt/bloc01/persons_bloc.dart';
+import 'package:bloc_state_mgt/03-bloc.dart';
+// import 'package:bloc_state_mgt/bloc02/persons_bloc.dart';
 import 'package:flutter/material.dart';
 
 // import 'package:bloc_state_mgt/01-cubit.dart';
-import 'package:bloc_state_mgt/02-bloc.dart';
+// import 'package:bloc_state_mgt/02-bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() => runApp(const MyApp());
@@ -20,10 +21,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const MyCubitWidget(),
-      home: BlocProvider(
-        create: (_) => PersonsBloc(),
-        child: const MyFirstBlocWidget(),
-      ),
+      // home: BlocProvider(
+      //   create: (_) => PersonsBloc(),
+      //   child: const MyFirstBlocWidget(),
+      // ),
+      home: const MySecondBlocWidget(),
     );
   }
 }

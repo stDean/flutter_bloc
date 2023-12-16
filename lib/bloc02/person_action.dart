@@ -1,4 +1,4 @@
-import 'package:bloc_state_mgt/bloc01/persons.dart';
+import 'package:bloc_state_mgt/bloc02/persons.dart';
 import 'package:flutter/foundation.dart' show immutable;
 
 // enum PersonsUrl { person1, person2 }

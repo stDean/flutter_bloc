@@ -1,6 +1,6 @@
-import 'package:bloc_state_mgt/bloc01/person_action.dart';
-import 'package:bloc_state_mgt/bloc01/persons.dart';
-import 'package:bloc_state_mgt/bloc01/persons_bloc.dart';
+import 'package:bloc_state_mgt/bloc02/person_action.dart';
+import 'package:bloc_state_mgt/bloc02/persons.dart';
+import 'package:bloc_state_mgt/bloc02/persons_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:bloc_test/bloc_test.dart';
 
