@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:bloc/bloc.dart';
 import 'dart:math' as math show Random;
 
-const List<String> names = ["foo", "bar", "bas"];
+const List<String> names = ['foo', 'bar', 'bas'];
 
 // this just extends the getRandomElement method on the Iterable library
 // elementAt is a method on iterable and length is a prop on iterable
@@ -46,14 +46,14 @@ class _MyCubitWidgetState extends State<MyCubitWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Cubit"),
+        title: const Text('Cubit'),
       ),
       body: StreamBuilder(
         stream: cubit.stream,
         builder: (context, snapshot) {
           final button = TextButton(
             onPressed: () => cubit.pickRandomName(),
-            child: const Text("Pick Random Name"),
+            child: const Text('Pick Random Name'),
           );
           switch (snapshot.connectionState) {
             case ConnectionState.none:
@@ -65,7 +65,7 @@ class _MyCubitWidgetState extends State<MyCubitWidget> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(snapshot.data ?? ""),
+                    Text(snapshot.data ?? ''),
                     button,
                   ],
                 ),

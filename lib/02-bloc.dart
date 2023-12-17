@@ -34,7 +34,7 @@ class MyFirstBlocWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Bloc One"),
+        title: const Text('Bloc One'),
       ),
       body: Column(
         children: [
