@@ -21,6 +21,7 @@ class MySecondBlocWidget extends StatelessWidget {
       create: (context) => AppBloc(
         loginApi: LoginApi(),
         noteApi: NoteApi(),
+        acceptedLoginHandle: const LoginHandler.fooBar(),
       ),
       child: Scaffold(
         appBar: AppBar(
