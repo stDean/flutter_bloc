@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793518249814",
+    "project_id": "bloc-galerie-de-photos",
+    "storage_bucket": "bloc-galerie-de-photos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793518249814:android:9333543fc6d2bb895968f7",
+        "android_client_info": {
+          "package_name": "com.example.bloc_state_mgt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-CXr_4GWyf1wI9nznS73qlPdHwio2NZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
