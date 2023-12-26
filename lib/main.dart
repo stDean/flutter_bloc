@@ -1,4 +1,5 @@
-import 'package:bloc_state_mgt/03-bloc.dart';
+// import 'package:bloc_state_mgt/03-bloc.dart';
+import 'package:bloc_state_mgt/multibloc-04/view/home_page.dart';
 // import 'package:bloc_state_mgt/bloc02/persons_bloc.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
       //   create: (_) => PersonsBloc(),
       //   child: const MyFirstBlocWidget(),
       // ),
-      home: const MySecondBlocWidget(),
+      // home: const MySecondBlocWidget(),
+      home: const HomePage(),
     );
   }
 }
