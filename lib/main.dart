@@ -1,6 +1,6 @@
 // import 'package:bloc_state_mgt/03-bloc.dart';
 // import 'package:bloc_state_mgt/multibloc-04/view/home_page.dart';
-import 'package:bloc_state_mgt/05-main-exercise/lib/view/homepage.dart';
+import 'package:bloc_state_mgt/05-main-exercise/lib/view/app.dart';
 // import 'package:bloc_state_mgt/bloc02/persons_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -28,27 +28,27 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class App extends StatelessWidget {
-  const App({
-    super.key,
-  });
+// class App extends StatelessWidget {
+//   const App({
+//     super.key,
+//   });
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Bloc State Management',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      // home: const MyCubitWidget(),
-      // home: BlocProvider(
-      //   create: (_) => PersonsBloc(),
-      //   child: const MyFirstBlocWidget(),
-      // ),
-      // home: const MySecondBlocWidget(),
-      // home: const HomePage(),
-      home: const HomePage(),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: 'Flutter Bloc State Management',
+//       debugShowCheckedModeBanner: false,
+//       theme: ThemeData(
+//         primarySwatch: Colors.blue,
+//       ),
+//       // home: const MyCubitWidget(),
+//       // home: BlocProvider(
+//       //   create: (_) => PersonsBloc(),
+//       //   child: const MyFirstBlocWidget(),
+//       // ),
+//       // home: const MySecondBlocWidget(),
+//       // home: const HomePage(),
+//       home: const HomePage(),
+//     );
+//   }
+// }
